@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 130px;
+    padding-left: 9px;
+    padding-right: 9px;
+
+}
+.logo{
+    background-image: url("./images/amzon.png");
+    background-size: cover;
+    height: 50px;
+    width: 130px;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+.nav-logo{
+    height: 50px;
+    width: 130px;
+    padding-left: 9px;
+    padding-right: 9px;
+
+}
+.nav-deilever{
+    margin-left: 5px;
+    margin-right: 4px;
+    height: 50px;
+    width: 70px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.address-1{
+    color: #cccc;
+    font-size: small;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.address-2{
+    font-size: large;
+    margin-left: 4px;
+}
+
+/* search bar */
+
+.search-bar{
+    display: flex;
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+    margin: 0px 5px 0px 5px;
+    justify-content: space-evenly;
+}
+.select-option{
+    background-color: #E6E6E6;
+    width: 45px;
+    padding-left:5px ;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    font-size: 15px;
+    text-indent: 8px;
+
+    border: none;
+}
+.search-button{
+    width: 45px;
+    background-color:goldenrod;
+    align-content: center;
+    border: transparent 0px solid;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* box 4 */
+.flag{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    padding: 5px 8px 5px 8px;
+}
+.flag #icon{
+    font-size: 14px;
+}
+.flag #line-2{
+    font-size: 14px;
+    padding-left: 4px;
+    font-weight: bold;
+}
+
+/* box 5 */
+
+.nav-sign-in{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 9px 10px 9px;
+}
+.nav-sign-in #first-line{
+    font-size: 12px;
+}
+.nav-sign-in #second-line{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* box 5 */
+.nav-order-return{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 9px 10px 9px;
+}
+.nav-order-return #first-line{
+    font-size: 12px;
+}
+.nav-order-return #second-line{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* box 6 */
+.cart{
+    font-size: x-large;
+    padding: 10px 9px 10px 9px;
+}
+
+/* sub-nav */
+.sub-nav{
+    height: 40px;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* box-1 */
+.box-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 100px;
+    padding: 7px 9px 7px 9px;
+}
+.bar{
+    color: white;
+}
+.box-1 #option{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 100px;
+}
+/* sub nav button style */
+#btn{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    border: none;
+    color:white;
+}
+.btn-size{
+    padding: 7px 9px 7px 9px;
+}
+
+.banner{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/OHL_Events/img24/HSS/Jan25/GW/HSS-GW-Heros-Pc-01._CB537391477_.jpg");
+    height: 300px;
+    background-size: cover;
+}
+
+/* shop section */
+.shop{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(239, 223, 245);
+}
+.box{
+    height: 450px;
+    width: 350px;
+    margin: 10px 0px 10px 0px; 
+    padding: 15px 0px 15px 0px;
+    background-color: white;
+}
+/* box-1 */
+#first-line{
+    padding: 0px 15px 0px 15px;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.product-img{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 5px 0px 5px;
+}
+.product-img img{
+    margin: 10px 5px 10px 5px;
+    object-fit: fill;
+}
+/* box 2 */
+.product-img .product-descp img{
+    margin: 30px 5px 10px 5px;
+    height: 100px;
+    width: 150px;
+    object-fit: fill;
+}
+.product-img .product-descp #descrption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 50px;
+    margin: 0px 5px 0px 5px;
+}
